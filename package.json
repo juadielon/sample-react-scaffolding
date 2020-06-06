@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev-server": "nodemon --exec babel-node src/server/server.js --ignore dist/"
   },
   "author": "",
   "license": "ISC",
